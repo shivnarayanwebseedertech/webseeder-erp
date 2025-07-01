@@ -13,7 +13,7 @@ import SetupGuide from "../Components/SetupGuide";
 import FAQs from "../Components/FAQs";
 import FeedbackRating from "../Components/FeedbackRating";
 import FollowUs from "../Components/FollowUs";
-import TopBannerAd from "../Components/topbannerad";
+import TopBannerAd from "../Components/TopBannerAd";
 
 export default function DashboardPage({ collapsed }) {
   const [dashboardFilter, setDashboardFilter] = useState("Current month");

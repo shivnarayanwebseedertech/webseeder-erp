@@ -131,7 +131,7 @@ export default function ReceiptForm() {
         </div>
       </div>
 
-      <div className="max-w-[1400px] mx-auto p-4 sm:p-6">
+      <div className="max-w-8xl mx-auto p-4 sm:p-6">
         {/* Main Form Fields */}
         <div className="bg-white rounded-lg border border-gray-200 p-4 sm:p-6 mb-6">
           {/* First Row */}

@@ -120,7 +120,7 @@ export default function ExpenseForm() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen mt-[-1rem] bg-gray-50">
       {/* Header */}
       <div className="bg-white border-b border-gray-200 px-4 sm:px-6 py-4">
         <div className="flex items-center gap-4">
@@ -135,7 +135,7 @@ export default function ExpenseForm() {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto p-4 sm:p-6">
+      <div className="max-w-8xl mx-auto p-4 sm:p-6">
         <div className="flex flex-col lg:flex-row gap-6">
           {/* Main Form - Left Side */}
           <div className="flex-1 space-y-6">

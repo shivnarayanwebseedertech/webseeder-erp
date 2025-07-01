@@ -54,9 +54,9 @@ export default function SalesInvoice({ collapsed, setCollapsed }) {
       </div>
 
       {/* Content */}
-      <div className="p-6">
+      <div className="p-1.5">
         {activeTab === "general" && (
-          <div className="flex flex-col items-center p-8 bg-white rounded shadow min-h-[550px]">
+          <div className="flex flex-col items-center p-8 bg-white rounded shadow min-h-full">
             <img
               src="https://super-monitoring.com/blog/wp-content/uploads/2019/08/custom-contact-forms.png"
               alt="Invoice general"
